@@ -1,0 +1,129 @@
+/* #DDD
+
+#F5F5F5
+
+#6495ED */
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 0.25rem;
+    padding: 0.5rem;
+    border: 1px solid #CCC;
+    background-color: white;
+    max-width:fit-content;
+    position: absolute;
+    top: -45px;
+
+}
+
+main{
+
+    text-align: left;
+    padding: 20px;
+}
+
+#box{
+    height: 45px;
+    width: 100%;
+}
+
+
+form{
+    margin: 0.25rem;
+    padding: 0.5rem;
+    border: 1px solid #CCC;
+    background-color: #F5F5F5;
+    width: 65%;
+    position: absolute;
+    top: 60px;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+#fullname{
+    padding-right: 1rem;
+    width: 100%;
+}
+
+#email{
+    padding-right: 10rem;
+}
+
+#message{
+    padding-right: 40rem;
+}
+
+.form-control{
+    width: fit-content;
+}
+.subscribe{
+    width: auto;
+
+}
+
+#email{
+    position: relative;
+}
+
+#subscribe label, #subscribe input {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#subscribe label {
+    display:grid;
+    margin: 0.25rem;
+}
+
+#subscribe .box {
+    margin: 0 0 1rem 0;
+
+}
+#subscribe input {
+    display: block;
+    padding: 0.5rem;
+    border: 1px solid #CCC;
+    border-radius: 0.2rem;
+    max-width: fit-content;
+}
+
+#subcribe-btn{
+    background-color:#6495ED;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   max-width:fit-content;
+    border-radius: 0.2rem;
+}
+
+/* Smart phone */
+@media only screen and (max-width: 25rem){
+    form{
+        display: block;
+       
+    }
+
+}
+
+/* tablet */
+@media only screen and (max-width: 40rem){
+    form{
+        margin: 0.25rem;
+        padding: 1rem;
+        border: 1px solid #CCC;
+        background-color: #F5F5F5;
+        width: 65%;
+        position: absolute;
+        top: 60px;
+        border-radius: 0.2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+    }
+
+}
+
+/* desktop */
+@media only screen and (max-width: 50rem){
+
+}
